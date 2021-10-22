@@ -2,9 +2,13 @@
     height: 200px;
     background-color: pink;
     border: 1px solid black;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.box-nested{
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: salmon;
+    border: 1px solid white;
 }
 
