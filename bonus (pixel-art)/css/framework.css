@@ -27,77 +27,209 @@
 /* <--- COLUMN ---> */
 
 .col-1{
-    flex-basis: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 34) * 1);
 }
 .col-2{
-    flex-basis: calc((100% / 12) * 2);
+    flex-basis: calc((100% / 34) * 2);
 }
 .col-3{
-    flex-basis: calc((100% / 12) * 3);
+    flex-basis: calc((100% / 34) * 3);
 }
 .col-4{
-    flex-basis: calc((100% / 12) * 4);
+    flex-basis: calc((100% / 34) * 4);
 }
 .col-5{
-    flex-basis: calc((100% / 12) * 5);
+    flex-basis: calc((100% / 34) * 5);
 }
 .col-6{
-    flex-basis: calc((100% / 12) * 6);
+    flex-basis: calc((100% / 34) * 6);
 }
 .col-7{
-    flex-basis: calc((100% / 12) * 7);
+    flex-basis: calc((100% / 34) * 7);
 }
 .col-8{
-    flex-basis: calc((100% / 12) * 8);
+    flex-basis: calc((100% / 34) * 8);
 }
 .col-9{
-    flex-basis: calc((100% / 12) * 9);
+    flex-basis: calc((100% / 34) * 9);
 }
 .col-10{
-    flex-basis: calc((100% / 12) * 10);
+    flex-basis: calc((100% / 34) * 10);
 }
 .col-11{
-    flex-basis: calc((100% / 12) * 11);
+    flex-basis: calc((100% / 34) * 11);
 }
 .col-12{
-    flex-basis: calc((100% / 12) * 12);
+    flex-basis: calc((100% / 34) * 12);
+}
+.col-13{
+    flex-basis: calc((100% / 34) * 13);
+}
+.col-14{
+    flex-basis: calc((100% / 34) * 14);
+}
+.col-15{
+    flex-basis: calc((100% / 34) * 15);
+}
+.col-16{
+    flex-basis: calc((100% / 34) * 16);
+}
+.col-17{
+    flex-basis: calc((100% / 34) * 17);
+}
+.col-18{
+    flex-basis: calc((100% / 34) * 18);
+}
+.col-19{
+    flex-basis: calc((100% / 34) * 19);
+}
+.col-20{
+    flex-basis: calc((100% / 34) * 20);
+}
+.col-21{
+    flex-basis: calc((100% / 34) * 21);
+}
+.col-22{
+    flex-basis: calc((100% / 34) * 22);
+}
+.col-23{
+    flex-basis: calc((100% / 34) * 23);
+}
+.col-24{
+    flex-basis: calc((100% / 34) * 24);
+}
+.col-25{
+    flex-basis: calc((100% / 34) * 25);
+}
+.col-26{
+    flex-basis: calc((100% / 34) * 26);
+}
+.col-27{
+    flex-basis: calc((100% / 34) * 27);
+}
+.col-28{
+    flex-basis: calc((100% / 34) * 28);
+}
+.col-29{
+    flex-basis: calc((100% / 34) * 29);
+}
+.col-30{
+    flex-basis: calc((100% / 34) * 30);
+}
+.col-31{
+    flex-basis: calc((100% / 34) * 31);
+}
+.col-32{
+    flex-basis: calc((100% / 34) * 32);
+}
+.col-33{
+    flex-basis: calc((100% / 34) * 33);
+}
+.col-34{
+    flex-basis: calc((100% / 34) * 34);
 }
 
 
 /* <--- OFFSET---> */
 .col-offset-1{
-    margin-left: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 34) * 1);
 }
-.col-offset-2{
-    margin-left: calc((100% / 12) * 2);
+.col-offset2{
+    flex-basis: calc((100% / 34) * 2);
 }
 .col-offset-3{
-    margin-left: calc((100% / 12) * 3);
+    flex-basis: calc((100% / 34) * 3);
 }
 .col-offset-4{
-    margin-left: calc((100% / 12) * 4);
+    flex-basis: calc((100% / 34) * 4);
 }
 .col-offset-5{
-    margin-left: calc((100% / 12) * 5);
+    flex-basis: calc((100% / 34) * 5);
 }
 .col-offset-6{
-    margin-left: calc((100% / 12) * 6);
+    flex-basis: calc((100% / 34) * 6);
 }
 .col-offset-7{
-    margin-left: calc((100% / 12) * 7);
+    flex-basis: calc((100% / 34) * 7);
 }
 .col-offset-8{
-    margin-left: calc((100% / 12) * 8);
+    flex-basis: calc((100% / 34) * 8);
 }
 .col-offset-9{
-    margin-left: calc((100% / 12) * 9);
+    flex-basis: calc((100% / 34) * 9);
 }
 .col-offset-10{
-    margin-left: calc((100% / 12) * 10);
+    flex-basis: calc((100% / 34) * 10);
 }
 .col-offset-11{
-    margin-left: calc((100% / 12) * 11);
+    flex-basis: calc((100% / 34) * 11);
 }
 .col-offset-12{
-    margin-left: calc((100% / 12) * 12);
+    flex-basis: calc((100% / 34) * 12);
+}
+.col-offset-13{
+    flex-basis: calc((100% / 34) * 13);
+}
+.col-offset-14{
+    flex-basis: calc((100% / 34) * 14);
+}
+.col-offset-15{
+    flex-basis: calc((100% / 34) * 15);
+}
+.col-offset-16{
+    flex-basis: calc((100% / 34) * 16);
+}
+.col-offset-17{
+    flex-basis: calc((100% / 34) * 17);
+}
+.col-offset-18{
+    flex-basis: calc((100% / 34) * 18);
+}
+.col-offset-19{
+    flex-basis: calc((100% / 34) * 19);
+}
+.col-offset-20{
+    flex-basis: calc((100% / 34) * 20);
+}
+.col-offset-21{
+    flex-basis: calc((100% / 34) * 21);
+}
+.col-offset-22{
+    flex-basis: calc((100% / 34) * 22);
+}
+.col-offset-23{
+    flex-basis: calc((100% / 34) * 23);
+}
+.col-offset-24{
+    flex-basis: calc((100% / 34) * 24);
+}
+.col-offset-25{
+    flex-basis: calc((100% / 34) * 25);
+}
+.col-offset-26{
+    flex-basis: calc((100% / 34) * 26);
+}
+.col-offset-27{
+    flex-basis: calc((100% / 34) * 27);
+}
+.col-offset-28{
+    flex-basis: calc((100% / 34) * 28);
+}
+.col-offset-29{
+    flex-basis: calc((100% / 34) * 29);
+}
+.col-offset-30{
+    flex-basis: calc((100% / 34) * 30);
+}
+.col-offset-31{
+    flex-basis: calc((100% / 34) * 31);
+}
+.col-offset-32{
+    flex-basis: calc((100% / 34) * 32);
+}
+.col-offset-33{
+    flex-basis: calc((100% / 34) * 33);
+}
+.col-offset-34{
+    flex-basis: calc((100% / 34) * 34);
 }
