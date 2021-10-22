@@ -1,8 +1,30 @@
 .container{
+    padding-top: 30px;
     background-color: black;
 }
 
 .hair{
-    height: 50px;
     background-color: #bf3531;
+}
+.pink{
+    background-color: #eeb5ac;
+}
+.shadowy-pink{
+    background-color: #c18479;
+}
+.nose-pink{
+    background-color: #ca535a;
+}
+.brown{
+    background-color: #872521;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+
+.hair, .pink, .shadowy-pink, .nose-pink, .brown, .black, .white{
+    height: 30px;
 }
