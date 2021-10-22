@@ -11,9 +11,12 @@ footer{
     padding-bottom: 30px;
     
 }
+.margin{
+    margin-top: 10px;
+}
 
 
-
+/* ralph */
 .hair{
     background-color: #bf3531;
 }
@@ -40,21 +43,6 @@ footer{
     height: 30px;
 }
 
-.box{
-    height: 100px;
-    color: white;
-    font-family: 'VT323', monospace;
-    font-size: 150px;
-    font-weight: bold;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
 /* Eye Movement */
 .from-white-to-black{
     height: 30px;
@@ -73,3 +61,60 @@ footer{
     90%{background-color: black}
     100%{background-color: white}
 }
+
+
+/* boolean */
+.box{
+    height: 100px;
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 150px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* brick */
+/* color brick */
+.ligth-brick, .brick-top, .brick-center, .brick-shadow, .light-shadow-brick{
+    height: 10px;
+}
+.ligth-brick{
+    background-color: #eb7825;
+}
+.brick-top{
+    background-color: #ca6424;
+}
+.brick-center{
+    background-color: #924710;
+}
+.brick-shadow{
+    background-color: #542908;
+}
+.light-shadow-brick{
+    background-color: #cb651b;
+}
+
+
+
+
+
+
+
+/* moving bricks*/
+.absolute{
+    position:absolute
+}
+.move-brick{
+    position: relative;
+    animation: traslate-brick 15s linear infinite;
+}
+@keyframes traslate-brick {
+    0%{transform:translateX(-2000px);}
+    100%{transform:translateX(2000px);}
+}
+
