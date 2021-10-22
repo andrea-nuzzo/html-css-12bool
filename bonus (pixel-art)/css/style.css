@@ -29,3 +29,31 @@
 .hair, .pink, .shadowy-pink, .nose-pink, .brown, .black, .white{
     height: 30px;
 }
+
+.absolute{
+    position: absolute;
+}
+
+
+.from-white-to-black{
+    height: 30px;
+    animation: wb 3s infinite;
+    
+}
+
+@keyframes wb {
+    90%{background-color: white}
+    100%{background-color: black}
+}
+
+
+
+.from-black-to-white{
+    height: 30px;
+    animation: bw 3s infinite;
+}
+
+@keyframes bw {
+    90%{background-color: black}
+    100%{background-color: white}
+}
