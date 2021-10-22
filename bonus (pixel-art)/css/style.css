@@ -15,7 +15,7 @@ footer{
     
 }
 .margin{
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 
@@ -102,12 +102,6 @@ footer{
     background-color: #cb651b;
 }
 
-
-
-
-
-
-
 /* moving bricks*/
 .absolute{
     position:absolute
@@ -155,4 +149,88 @@ footer{
 @keyframes traslate-brick {
     0%{transform:translateX(-2000px);}
     100%{transform:translateX(1500px);}
+}
+
+
+
+/* written animation */
+.visibile1{
+    position: relative;
+    animation: super-blink 20s linear;
+}
+@keyframes super-blink {
+    0%{color: transparent;}
+    25%{color: transparent;}
+    30%{color: white;}
+    35%{color: transparent}
+    40%{color: white;}
+    45%{color: transparent}
+    50%{font-size: 300px;}
+    50%{color: white;}
+    55%{color: transparent}
+    60%{color: white;}
+    65%{color: transparent}
+    90% {color: white;}
+    100%{font-size: 150px;}
+}
+
+
+.visibile2{
+    position: relative;
+    animation: blink 7s;
+}
+@keyframes blink {
+    0% {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}
+}
+
+.visibile3{
+    position: relative;
+    animation: blink 8s;
+}
+@keyframes blink {
+    0% {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}
+}
+
+.visibile4{
+    position: relative;
+    animation: blink 8.5s;
+}
+@keyframes blink {
+    0% {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}
+}
+
+.visibile5{
+    position: relative;
+    animation: blink 9s;
+}
+@keyframes blink {
+    0% {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}
+}
+
+.visibile6{
+    position: relative;
+    animation: blink 9.5s;
+}
+@keyframes blink {
+    0% {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}
+}
+
+.visibile7{
+    position: relative;
+    animation: blink 10s;
+}
+@keyframes blink {
+    0% {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}
 }
