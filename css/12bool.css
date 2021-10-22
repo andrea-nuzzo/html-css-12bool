@@ -11,12 +11,17 @@
 
 .container{
     width: 100%;
+    margin: 0 auto;
 }
 
 /* <--- ROW --> */
 .row{
     display: flex;
 
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 /* *** EXTRA SMALL < 576PX *** */
 /* <--- COLUMN ---> */
