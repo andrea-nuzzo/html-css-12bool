@@ -1,8 +1,19 @@
+body {
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    border: 1px solid yellowgreen;
+}
+
 .container{
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: black;
+    
 }
+
+
 
 .hair{
     background-color: #bf3531;
@@ -30,29 +41,31 @@
     height: 30px;
 }
 
-.absolute{
-    position: absolute;
+.box{
+    height: 50px;
+    border: 1px solid yellowgreen;
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
 }
 
 
+
+
+/* Eye Movement */
 .from-white-to-black{
     height: 30px;
     animation: wb 3s infinite;
-    
 }
-
 @keyframes wb {
     90%{background-color: white}
     100%{background-color: black}
 }
 
-
-
 .from-black-to-white{
     height: 30px;
     animation: bw 3s infinite;
 }
-
 @keyframes bw {
     90%{background-color: black}
     100%{background-color: white}
