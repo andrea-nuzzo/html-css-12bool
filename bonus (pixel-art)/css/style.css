@@ -7,6 +7,9 @@ footer{
 }
 
 .container{
+    max-width: 1070px;
+    min-width: 1070px;
+    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
     
@@ -109,12 +112,47 @@ footer{
 .absolute{
     position:absolute
 }
-.move-brick{
+.move-brick1{
     position: relative;
-    animation: traslate-brick 15s linear infinite;
+    animation: traslate-brick 26s infinite;
 }
 @keyframes traslate-brick {
     0%{transform:translateX(-2000px);}
-    100%{transform:translateX(2000px);}
+    100%{transform:translateX(1500px);}
 }
 
+.move-brick2{
+    position: relative;
+    animation: traslate-brick 24s infinite;
+}
+@keyframes traslate-brick {
+    0%{transform:translateX(-2000px);}
+    100%{transform:translateX(1500px);}
+}
+
+.move-brick3{
+    position: relative;
+    animation: traslate-brick 28s infinite;
+}
+@keyframes traslate-brick {
+    0%{transform:translateX(-2000px);}
+    100%{transform:translateX(1500px);}
+}
+
+.move-brick4{
+    position: relative;
+    animation: traslate-brick 27s infinite;
+}
+@keyframes traslate-brick {
+    0%{transform:translateX(-2000px);}
+    100%{transform:translateX(1500px);}
+}
+
+.move-brick5{
+    position: relative;
+    animation: traslate-brick 25s infinite;
+}
+@keyframes traslate-brick {
+    0%{transform:translateX(-2000px);}
+    100%{transform:translateX(1500px);}
+}
