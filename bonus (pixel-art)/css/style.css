@@ -4,7 +4,6 @@ body {
 
 footer{
     background-color: black;
-    border: 1px solid yellowgreen;
 }
 
 .container{
@@ -42,11 +41,15 @@ footer{
 }
 
 .box{
-    height: 50px;
-    border: 1px solid yellowgreen;
+    height: 100px;
     color: white;
     font-family: 'VT323', monospace;
-    font-size: 50px;
+    font-size: 150px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -55,7 +58,7 @@ footer{
 /* Eye Movement */
 .from-white-to-black{
     height: 30px;
-    animation: wb 3s infinite;
+    animation: wb 2.5s infinite;
 }
 @keyframes wb {
     90%{background-color: white}
@@ -64,7 +67,7 @@ footer{
 
 .from-black-to-white{
     height: 30px;
-    animation: bw 3s infinite;
+    animation: bw 2.5s infinite;
 }
 @keyframes bw {
     90%{background-color: black}
