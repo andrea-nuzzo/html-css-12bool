@@ -12,3 +12,16 @@
     border: 1px solid white;
 }
 
+.margin-right{
+    margin-right: 10px;
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
